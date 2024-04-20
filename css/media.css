@@ -1,0 +1,132 @@
+/* XL */
+
+@media(max-width: 1399px){
+    .container{
+        max-width: 1320px;
+    }
+
+}
+
+/* LG */
+
+@media(max-width: 1199px){
+    .container{
+        max-width: 1140px;
+    }
+
+}
+
+/* MD */
+
+@media(max-width: 991px){
+    .w-md-1{
+        width: 100%;
+    }
+    .w-md-2{
+        width: 50%;
+    }
+    .container{
+        max-width: 960px;
+    }
+    .theme-swicher .main-swich{
+        padding: 11px 14px;
+        font-size: 24px;
+    }
+    .theme-swicher ul li{
+        background-color: #EA5455;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-left: 5px;
+    }
+    header nav{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.361);
+        display: none;
+        padding: 10px 0;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav ul li a{
+        margin-left: 20px;
+    }
+    .toggle-menu i{
+        display: block;
+    }
+    .button{
+        padding: 13px 18px;
+        border-radius: 25px;
+    }
+    .explore{
+        padding: 80px 0;
+    }
+    .tours-destination-title{
+        margin-bottom: 30px;
+    }
+    .tours-destination-title h2:after{
+        bottom: -40%;
+    }
+    .footer-items{
+        margin-bottom: 20px;
+    }
+
+}
+
+/* SM */
+
+@media(max-width: 767px){
+    .w-sm-1{
+        width: 100%;
+    }
+    .container{
+        max-width: 720px;
+    }
+    .banner{
+        padding: 180px 0;
+    }
+    .banner-items h1{
+        font-size: 95px;
+    }
+    .w-2:first-child .events-items{
+        margin-bottom: 60px;
+    }
+    .w-2:first-child .events-items img{
+        object-position: top;
+    }
+    .tours-destination-title h2:after{
+        bottom: -20px;
+    }
+    .explore-items{
+        padding-left: 0;
+    }
+
+}
+
+/* XS */
+
+@media(max-width: 575px){
+    .w-xs-1{
+        width: 100%;
+    }
+    .container{
+        max-width: 540px;
+    }
+    .theme-swicher .main-swich{
+        padding: 5px 8px;
+        font-size: 18px;
+    }
+    .theme-swicher ul li{
+        background-color: #EA5455;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-left: 5px;
+    }
+    .banner-items h1{
+        font-size: 70px;
+    }
+}
